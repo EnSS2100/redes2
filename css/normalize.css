@@ -1,0 +1,148 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ * {
+    margin: 0;
+    box-sizing: border-box;
+    /* Añadir padding 0 para mayor consistencia en todos los elementos */
+    padding: 0;
+}
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Añadir una fuente predeterminada */
+    background-color: #f5f5f5; /* Fondo claro por defecto */
+    color: #333; /* Color de texto para mejorar legibilidad */
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+
+main {
+    display: block;
+    padding: 20px; /* Añadir padding para separar contenido del borde */
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #444; /* Color de texto ligeramente más oscuro */
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+    border: 1px solid #ccc; /* Añadir borde para mayor visibilidad */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+    background-color: #eee; /* Fondo gris claro para destacar el código */
+    padding: 10px; /* Añadir padding para mayor claridad */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+    background-color: transparent;
+    color: #0066cc; /* Añadir color de enlace por defecto */
+    text-decoration: none; /* Quitar subrayado por defecto */
+}
+
+a:hover {
+    text-decoration: underline; /* Añadir subrayado al pasar el cursor */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+    display: block;
+    margin-bottom: 1em; /* Añadir espacio entre elementos */
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+    display: list-item;
+    cursor: pointer; /* Añadir cursor de pointer para interacción */
+    font-weight: bold; /* Destacar el texto de resumen */
+    margin-bottom: 0.5em; /* Añadir espacio inferior */
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+    display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+    display: none;
+}
